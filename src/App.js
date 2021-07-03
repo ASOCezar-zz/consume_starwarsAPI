@@ -46,9 +46,9 @@ function App() {
 
   }
 
-  // if(error){
-  //   return <h1> ({error.message}) </h1>
-  // }
+  if(error){
+    return <h1> ({error.message}) </h1>
+  }
 
   console.log(chars);
   return (
