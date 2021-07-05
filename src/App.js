@@ -49,8 +49,7 @@ function App() {
   if(error){
     return <h1> ({error.message}) </h1>
   }
-
-  console.log(chars);
+  
   return (
           <>
             <Select chars={chars} updateChars={updateChars} selectedChar={selectedChar} setSelectedChar={setSelectedChar}/>
